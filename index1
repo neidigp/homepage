@@ -3,7 +3,15 @@
 <head>
 <title>Home Page</title>
 </head>
-<body style="background-color:grey;">
+<body style="background-color:darkslategrey;">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: deepskyblue;
+}
 
 li a {
   display: block;
@@ -14,6 +22,12 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
+</style>
 
 <h1 style="color:white;">Hello!</h1>
 <p style="color:white;"> My name is Peter Neidig and I'm in the information technology degree program at Point Park University.</p>
@@ -27,10 +41,8 @@ li a:hover {
 	<li style="color:white;"><a>Jogging<a></li>
 </ul>
 
-table, th, td {
-    border: 1px solid black;
-}
-<table style="width:100%" style="color:powderblue;">
+
+<table style="width:50%" style="color:powderblue;">
   <tr>
     <th style="color:white;">Author Name</th>
     <th style="color:white;">Favorite Book</th>
@@ -57,13 +69,6 @@ table, th, td {
 	<li style="color:white;">peter.neidig@comcast.net</li>
 </ul>
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-}
 
 
 
