@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+</head>
+<body style="background-color:grey;">
+
+li a {
+  display: block;
+  width: 60px;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+<h1 style="color:white;">Hello!</h1>
+<p style="color:white;"> My name is Peter Neidig and I'm in the information technology degree program at Point Park University.</p>
+
+<img src="C:\Users\peter\Desktop\me.jpg" alt="Me" style="width:500px;height600px;">
+
+<h1 style="color:powderblue;">Interests</h1>
+<ul>
+	<li style="color:white;"><a>reading science fiction</a></li>
+	<li style="color:white;"><a>writing science fiction and fantasy stories</a></li>
+	<li style="color:white;"><a>Jogging<a></li>
+</ul>
+
+table, th, td {
+    border: 1px solid black;
+}
+<table style="width:100%" style="color:powderblue;">
+  <tr>
+    <th style="color:white;">Author Name</th>
+    <th style="color:white;">Favorite Book</th>
+  </tr>
+  <tr>
+    <td style="color:white;">Andrzej Sapkowski</td>
+    <td style="color:white;">The Lady of the Lake</td>
+  </tr>
+  <tr>
+    <td style="color:white;">Isaac Asimov</td>
+    <td style="color:white;">The End of Eternity</td>
+  </tr>
+</table>
+
+<h1 style="color:powderblue;">Current Courses</h1>
+<ul>
+	<li style="color:white;">Advanced Programming</li>
+	<li style="color:white;">Quantitative Management</li>
+</ul>
+
+<h1 style="color:powderblue;">Contact Info</h1>
+<ul>
+	<li style="color:white;">pneidi@pointpark.edu</li>
+	<li style="color:white;">peter.neidig@comcast.net</li>
+</ul>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+
+
+
+</body>
+</html>
