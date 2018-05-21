@@ -15,6 +15,7 @@ ul {
   padding: 0;
   width: 200px;
   background-color: deepskyblue;
+  align:center;
 }
 
 li a {
@@ -92,7 +93,9 @@ My name is Peter Neidig and I'm in the information technology degree program at 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-$("div").hide();
+$("div.Introduction").hide();
+$("div.Interests").hide();
+$("div.courses_contact").hide();
 $("button#b1").on("click", function() {
   $("div").hide();
   $("div.Introduction").FadeIn();
