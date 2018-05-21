@@ -13,7 +13,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 150px;
   background-color: deepskyblue;
   display: inline-block;
   text-align: center;
@@ -61,7 +61,7 @@ My name is Peter Neidig and I'm in the information technology degree program at 
 </ul>
 
 
-<table align:"center" style="width:100%" style="color:powderblue" style="text-align:center";>
+<table align:"center" style="width:75%" style="color:powderblue" style="text-align:center";>
   <tr>
     <th style="color:white;">Author Name</th>
     <th style="color:white;">Favorite Book</th>
