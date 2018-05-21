@@ -37,7 +37,7 @@ table, th, td {
 
 <button id="b1">Introduction</button>
 <button id="b2">Interests</button>
-button id="b3">Courses and contact info</button>
+<button id="b3">Courses and contact info</button>
 
 <form>
   <input type="radio" name="font" value="green">Font color green
