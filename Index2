@@ -15,7 +15,8 @@ ul {
   padding: 0;
   width: 200px;
   background-color: deepskyblue;
-  align:center;
+  display: inline-block;
+  text-align: center;
 }
 
 li a {
@@ -58,7 +59,7 @@ My name is Peter Neidig and I'm in the information technology degree program at 
 </ul>
 
 
-<table style="width:50%" style="color:powderblue;">
+<table style="width:50%" style="color:powderblue" "text-align:center";>
   <tr>
     <th style="color:white;">Author Name</th>
     <th style="color:white;">Favorite Book</th>
