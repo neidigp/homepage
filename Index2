@@ -101,15 +101,15 @@ $("div.Interests").hide();
 $("div.courses_contact").hide();
 $("button#b1").on("click", function() {
   $("div").hide();
-  $("div.Introduction").FadeIn();
+  $("div.Introduction").show();
 })
 $("button#b2").on("click", function() {
   $("div").hide();
-  $("div.Interests").FadeIn();
+  $("div.Interests").show();
 })
 $("button#b3").on("click", function() {
   $("div").hide();
-  $("div.courses_contact").FadeIn();
+  $("div.courses_contact").show();
 })
 $("input").on("click", function() {
   $("div.Introduction").css("color", "green");
